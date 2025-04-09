@@ -1,0 +1,13 @@
+#Q11
+# Define a list with duplicate book titles
+book_titles = ["CHHAVA", "1984", "SHYAMCHI AAI", "MORACHE PI", "SHYAMCHI AAI", "1984"]
+
+# Convert the list to a set to remove duplicates
+unique_book_titles = set(book_titles)
+
+# Convert the set back to a list
+unique_book_titles = list(unique_book_titles)
+
+# Print the list of unique book titles
+print("Unique Book Titles:")
+print(unique_book_titles)
